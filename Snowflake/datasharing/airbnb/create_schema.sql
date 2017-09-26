@@ -1,0 +1,2 @@
+
+CREATE SCHEMA "DATA_SHARING_AIR".AIRBNB COMMENT = 'Airbnb test schema';
