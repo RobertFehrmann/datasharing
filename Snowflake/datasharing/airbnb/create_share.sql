@@ -1,5 +1,6 @@
-create share airbnb_crm_data;
-grant usage on database data_sharing_air to share airbnb_crm_data;
-grant usage on schema data_sharing_air.shared to share airbnb_crm_data;
-grant select on view data_sharing_air.shared.vw_crm_data to share airbnb_crm_data; 
-alter share airbnb_crm_data add accounts=pm
+DROP SHARE IF EXISTS airbnb_crm_data;
+CREATE SHARE airbnb_crm_data;
+GRANT USAGE ON DATABASE data_sharing_air TO SHARE airbnb_crm_data;
+USE DATABASE data_sharing_air;
+GRANT USAGE ON SCHEMA shared TO SHARE airbnb_crm_data;
+ALTER SHARE airbnb_crm_data ADD accounts=pm
