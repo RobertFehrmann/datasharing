@@ -1,0 +1,8 @@
+CREATE TABLE "DATA_SHARING_CL"."CARDLYTICS".CAMPAIGN_DATA 
+(
+    OrderID STRING NOT NULL, 
+    Type STRING NOT NULL, 
+    CreateDate DATE NOT NULL, 
+    Amount NUMBER (12, 4) NOT NULL
+) 
+COMMENT = 'Campaign Data';
