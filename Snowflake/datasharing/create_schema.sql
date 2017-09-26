@@ -1,0 +1,1 @@
+CREATE SCHEMA "DATA_SHARING_CL".CARDLYTICS COMMENT = 'Cardlytics test schema';
