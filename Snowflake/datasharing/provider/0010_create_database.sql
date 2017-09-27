@@ -1,1 +1,1 @@
-CREATE DATABASE Data_sharing_cl COMMENT = 'Test database for cardlytics data sharing (Robert F)';
+CREATE DATABASE DATA_SHARING COMMENT = 'Test database for data sharing (Robert F)';
